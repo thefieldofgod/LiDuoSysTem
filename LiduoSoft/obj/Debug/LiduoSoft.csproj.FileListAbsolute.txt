@@ -265,3 +265,11 @@ C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\LiduoSoft.Pr
 C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\LiduoSoft.csproj.GenerateResource.Cache
 C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\LiduoSoft.exe
 C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\LiduoSoft.pdb
+C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\Views\IncreaseMembersperson.g.cs
+C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\Views\IncreaseSalesperson.g.cs
+C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\Views\IncreaseSuppliersperson.g.cs
+C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\Views\AddMember.g.cs
+C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\Views\IncreaseMembersperson.baml
+C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\Views\AddMember.baml
+C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\Views\IncreaseSalesperson.baml
+C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\Views\IncreaseSuppliersperson.baml

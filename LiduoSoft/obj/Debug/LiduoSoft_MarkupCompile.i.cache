@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\App.xaml
-12-1138486654
+161315193924
 151548459306
-261395927133
+30849005313
 23415840014
-Login.xaml;MainWindow.xaml;MainSoftWindow.xaml;Views\MemberManagement.xaml;Views\MyGoodsList.xaml;Views\GoodList.xaml;Views\SaleAcountList.xaml;Views\GoodsAcountList.xaml;Views\SaleDetaillList.xaml;Views\SupplierManage.xaml;Views\UserButtonControl.xaml;Views\UserManage.xaml;
+Login.xaml;MainWindow.xaml;MainSoftWindow.xaml;Views\IncreaseMembersperson.xaml;Views\AddMember.xaml;Views\IncreaseSalesperson.xaml;Views\IncreaseSuppliersperson.xaml;Views\MemberManagement.xaml;Views\MyGoodsList.xaml;Views\GoodList.xaml;Views\SaleAcountList.xaml;Views\GoodsAcountList.xaml;Views\SaleDetaillList.xaml;Views\SupplierManage.xaml;Views\UserButtonControl.xaml;Views\UserManage.xaml;
 
 True
 
