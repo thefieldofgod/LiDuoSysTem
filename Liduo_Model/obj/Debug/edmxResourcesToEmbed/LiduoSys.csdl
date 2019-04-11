@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LiduoDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sdpost_Member">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MemberNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MemberName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MemberType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IDNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="254" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="Memo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreateTime" Type="DateTime" Precision="3" />
+    <Property Name="UpdateTime" Type="DateTime" Precision="3" />
+    <Property Name="Modifier" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Scores" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Birthday" Type="DateTime" Precision="3" />
+    <Property Name="ShortCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="openid" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="headimgurl" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="StoreNo" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="VIPLevel" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="SYS_User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="254" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserRole" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Memo" Type="String" MaxLength="254" FixedLength="false" Unicode="true" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UpdateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Modifier" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="RealName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sdpost_Member" EntityType="Self.sdpost_Member" />
+    <EntitySet Name="SYS_User" EntityType="Self.SYS_User" />
+  </EntityContainer>
+</Schema>

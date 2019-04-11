@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LiduoDBModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sdpost_Member">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MemberNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="MemberName" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhoneNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="MemberType" Type="nvarchar" MaxLength="50" />
+    <Property Name="IDNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="254" />
+    <Property Name="Status" Type="int" />
+    <Property Name="Memo" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Modifier" Type="nvarchar" MaxLength="50" />
+    <Property Name="Scores" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="ShortCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="openid" Type="nvarchar" MaxLength="255" />
+    <Property Name="headimgurl" Type="nvarchar" MaxLength="255" />
+    <Property Name="StoreNo" Type="nvarchar" MaxLength="200" />
+    <Property Name="VIPLevel" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="LiduoDBModel1StoreContainer">
+    <EntitySet Name="sdpost_Member" EntityType="Self.sdpost_Member" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

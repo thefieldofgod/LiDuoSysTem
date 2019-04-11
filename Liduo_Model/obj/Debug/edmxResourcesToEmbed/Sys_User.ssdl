@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LiduoDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="SYS_User">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="DefaultStore" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="254" Nullable="false" />
+    <Property Name="UserRole" Type="nvarchar" MaxLength="50" />
+    <Property Name="Memo" Type="nvarchar" MaxLength="254" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="UpdateTime" Type="datetime" Nullable="false" />
+    <Property Name="Modifier" Type="nvarchar" MaxLength="50" />
+    <Property Name="Status" Type="int" />
+    <Property Name="RealName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserType" Type="nvarchar" MaxLength="50" />
+    <Property Name="address" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="LiduoDBModelStoreContainer">
+    <EntitySet Name="SYS_User" EntityType="Self.SYS_User" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

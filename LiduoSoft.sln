@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiduoSoft", "LiduoSoft\LiduoSoft.csproj", "{DD7D02BF-09B9-40D5-9B29-2287F4C4F9F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLService", "SQLService\SQLService.csproj", "{FD7E5979-AD58-460E-B67F-1AC046CFEF07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liduo_Model", "Liduo_Model\Liduo_Model.csproj", "{730B44DE-5E6B-4F55-B7B0-E2966CF14970}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{5806EBB7-2191-49E8-B636-2BACD77863B9}"
+	ProjectSection(SolutionItems) = preProject
+		..\CMCeshi1\CMCeshi1\Dlls\Panuon.UI.dll = ..\CMCeshi1\CMCeshi1\Dlls\Panuon.UI.dll
+		..\CMCeshi1\CMCeshi1\Dlls\Xceed.Wpf.Toolkit.dll = ..\CMCeshi1\CMCeshi1\Dlls\Xceed.Wpf.Toolkit.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD7D02BF-09B9-40D5-9B29-2287F4C4F9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7D02BF-09B9-40D5-9B29-2287F4C4F9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7D02BF-09B9-40D5-9B29-2287F4C4F9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7D02BF-09B9-40D5-9B29-2287F4C4F9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7E5979-AD58-460E-B67F-1AC046CFEF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7E5979-AD58-460E-B67F-1AC046CFEF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7E5979-AD58-460E-B67F-1AC046CFEF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7E5979-AD58-460E-B67F-1AC046CFEF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730B44DE-5E6B-4F55-B7B0-E2966CF14970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730B44DE-5E6B-4F55-B7B0-E2966CF14970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730B44DE-5E6B-4F55-B7B0-E2966CF14970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730B44DE-5E6B-4F55-B7B0-E2966CF14970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
