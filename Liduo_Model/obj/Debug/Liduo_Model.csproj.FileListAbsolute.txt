@@ -34,6 +34,5 @@ C:\Users\Administrator\Source\Repos\LiDuoSysTem\Liduo_Model\bin\Debug\EntityFram
 C:\Users\Administrator\Source\Repos\LiDuoSysTem\Liduo_Model\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Administrator\Source\Repos\LiDuoSysTem\Liduo_Model\bin\Debug\EntityFramework.xml
 C:\Users\Administrator\Source\Repos\LiDuoSysTem\Liduo_Model\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Administrator\Source\Repos\LiDuoSysTem\Liduo_Model\obj\Debug\Liduo_Model.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Source\Repos\LiDuoSysTem\Liduo_Model\obj\Debug\Liduo_Model.dll
 C:\Users\Administrator\Source\Repos\LiDuoSysTem\Liduo_Model\obj\Debug\Liduo_Model.pdb

@@ -22,7 +22,7 @@
 #[Bb]in/
 #[Oo]bj/
 #.dll
-#.pdb
+.pdb
 #.exe
 #.cache
 
