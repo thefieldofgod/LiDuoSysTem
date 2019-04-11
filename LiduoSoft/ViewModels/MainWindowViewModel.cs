@@ -10,6 +10,6 @@ namespace LiduoSoft.ViewModels
 {
     public  class MainWindowViewModel: NotificationObject
     {
-      
+   
     }
 }

@@ -91,6 +91,18 @@
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="ViewModels\UserControlViewModels\SupplierManageViewModel.cs" />
     <Compile Include="ViewModels\UserControlViewModels\UserManageViewModel.cs" />
+    <Compile Include="Views\IncreaseMembersperson.xaml.cs">
+      <DependentUpon>IncreaseMembersperson.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddMember.xaml.cs">
+      <DependentUpon>AddMember.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IncreaseSalesperson.xaml.cs">
+      <DependentUpon>IncreaseSalesperson.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IncreaseSuppliersperson.xaml.cs">
+      <DependentUpon>IncreaseSuppliersperson.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MemberManagement.xaml.cs">
       <DependentUpon>MemberManagement.xaml</DependentUpon>
     </Compile>
@@ -137,6 +149,22 @@
     <Page Include="MainSoftWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\IncreaseMembersperson.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AddMember.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\IncreaseSalesperson.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\IncreaseSuppliersperson.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\MemberManagement.xaml">
       <SubType>Designer</SubType>

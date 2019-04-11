@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\15654\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\
+C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\obj\Debug\
 LiduoSoft
 none
 false
 DEBUG;TRACE
-C:\Users\15654\Source\Repos\LiDuoSysTem\LiduoSoft\App.xaml
-12-1138486654
+C:\Users\Administrator\Source\Repos\LiDuoSysTem\LiduoSoft\App.xaml
+161315193924
 151548459306
-26-1054784077
-232108401779
-Login.xaml;MainWindow.xaml;MainSoftWindow.xaml;Views\MemberManagement.xaml;Views\MyGoodsList.xaml;Views\GoodList.xaml;Views\SaleAcountList.xaml;Views\GoodsAcountList.xaml;Views\SaleDetaillList.xaml;Views\SupplierManage.xaml;Views\UserButtonControl.xaml;Views\UserManage.xaml;
+30849005313
+23415840014
+Login.xaml;MainWindow.xaml;MainSoftWindow.xaml;Views\IncreaseMembersperson.xaml;Views\AddMember.xaml;Views\IncreaseSalesperson.xaml;Views\IncreaseSuppliersperson.xaml;Views\MemberManagement.xaml;Views\MyGoodsList.xaml;Views\GoodList.xaml;Views\SaleAcountList.xaml;Views\GoodsAcountList.xaml;Views\SaleDetaillList.xaml;Views\SupplierManage.xaml;Views\UserButtonControl.xaml;Views\UserManage.xaml;
 
 True
 
